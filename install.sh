@@ -13,3 +13,5 @@ yum install php56w php56w-pdo php56w-mysql php56w-mbstring php56w-pear php56w-pr
 sed -i 's/\(^upload_max_filesize = \).*/\120M/' /etc/php.ini
 cd /var/www
 cp contrib/httpd/asterisk-cdr-viewer.conf /etc/httpd/conf.d/
+systemctl restart httpd.service
+systemctl status httpd.service
