@@ -11,3 +11,6 @@ cd asterisk_cdr_viewer
 sh install.sh
 
 vi /var/www/asterisk_cdr_viewer/include/config.inc.php
+
+###Access Webgui
+http://IP_Server/cdr
