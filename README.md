@@ -6,4 +6,6 @@ cd /var/www/
 
 git clone https://github.com/kietcaodev/asterisk_cdr_viewer.git
 
+cd asterisk_cdr_viewer
+
 sh install.sh
